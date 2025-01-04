@@ -1,0 +1,154 @@
+body {
+    background-color: #000000;
+    color: #F0EB8F;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+.navbar {
+    background-color: #000000 !important;
+}
+
+.nav-link {
+    color: #F0EB8F !important;
+    margin: 0 10px;
+}
+
+.nav-link:hover {
+    color: #F0EB8F ;
+}
+
+.hero-section { 
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.hero-content h1 span {
+    color: #aaa;
+    font-weight: normal;
+}
+
+.btn-custom {
+    background-color: #F0EB8F;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 10px 30px;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #d62839;
+    color: rgb(255, 145, 0);
+    transform: translateY(-3px);
+}
+
+.hire-btn {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 25px;
+    transition: all 0.3s ease;
+}
+
+.hire-btn:hover {
+    background-color: white;
+    color: rgb(255, 145, 0);
+}
+
+.hero-image img {
+    margin-top: 50px;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Tambahan style untuk section lainnya */
+.section {
+    padding: 80px 0;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.table-responsive {
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.table-dark {
+    --bs-table-bg: transparent;
+}
+
+.table-bordered {
+    border-color: #333;
+}
+
+/* Contact section */
+.contact {
+    margin-bottom: 50px;
+    color: #F0EB8F;
+    text-align: justify;
+    padding: 50px;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 5px;
+    font-size: large;
+    }
+    
+    .contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #F0EB8F;
+    }
+    
+    .contact-info {
+    margin-bottom: 50px;
+    color: #F0EB8F;
+    text-align: justify;
+    justify-content: space-between;
+
+    }
+
+    .linkss {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .linkSS {
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    border: 1px solid #000;
+    background-color: #Df7635;
+    border-radius: 30%;
+    }
+    
+    .linksimage {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    justify-content: center;
+    }
